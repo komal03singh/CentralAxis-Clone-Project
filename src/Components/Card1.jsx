@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 import Image from "next/image";
 
@@ -16,7 +17,7 @@ function Card1({heading,content,ulList=[],videoUrl}) {
               {ulList?.map((List,index)=>(
                 <li className='flex items-center gap-4 font-normal text-[#A1A1AA]' key={index}>
 
-                  <Image className='w-6 h-6 bg-[#787882] rounded-full' src="/tick.svg" alt="" />
+                  <Image className='bg-[#787882] rounded-full' height={6} width={6} src="/tick.svg" alt="" />
 
                   
                   
