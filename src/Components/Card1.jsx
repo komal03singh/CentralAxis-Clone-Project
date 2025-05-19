@@ -16,7 +16,7 @@ function Card1({heading,content,ulList=[],videoUrl}) {
               {ulList?.map((List,index)=>(
                 <li className='flex items-center gap-4 font-normal text-[#A1A1AA]' key={index}>
 
-                  <img className='w-6 h-6 bg-[#787882] rounded-full' src="tick.svg" alt="" />
+                  <Image className='w-6 h-6 bg-[#787882] rounded-full' src="tick.svg" alt="" />
 
                   
                   
