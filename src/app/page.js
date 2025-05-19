@@ -3,8 +3,7 @@
 import Card1 from "@/Components/Card1";
 import Card1Data from "@/Data/Card1Data";
 import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+import Link from "next/link";;
 
 export default function Home() {
 
