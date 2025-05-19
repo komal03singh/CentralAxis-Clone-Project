@@ -124,7 +124,7 @@ export default function Home() {
             <div  className="flex flex-col items-center gap-3 self-center ">
               <h3 className="text-[#787882] bg-[#18181B] text-base font-medium px-3.5 pb-px min-h-7 rounded-full">Built for AI</h3>
               <h2 className="text-3xl font-medium md:text-4xl">Modernizing the Digital Backbone</h2>
-              <p className=" text-[#787882] max-w-screen-md text-center text-lg font-light md:text-xl">Data center software (DCIM, BMS and EPMS) has stagnated. We've built a better way.</p>
+              <p className=" text-[#787882] max-w-screen-md text-center text-lg font-light md:text-xl">Data center software (DCIM, BMS and EPMS) has stagnated. We&apos;ve built a better way.</p>
             </div>
             <div className="flex flex-col gap-6">
               {Card1Data?.map((data,index)=>(
