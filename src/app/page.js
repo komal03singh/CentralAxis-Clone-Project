@@ -14,7 +14,7 @@ export default function Home() {
         <div className="container  flex justify-between items-center h-16 py-4">
           <div className="flex items-center w-fullgap-1 py-2 ">
             <Link href="/">
-              <Image className="p-2 w-14 h-15" src="logo.webp" alt="logo" />
+              <Image className="p-2" height={15} width={14} src="/logo.webp" alt="logo" />
             </Link>
             <Link className="text-2xl font-semibold" href="/">CentralAxis</Link>
           </div>
@@ -96,24 +96,24 @@ export default function Home() {
           <h4 className="text-[#787882]">Seamless integrations with any data center hardware</h4>
           <div className="mt-8 p-4 overflow-hidden">
             <div className="flex gap-14 animate-[var(--animate-scroll)]">
-              <Image className="w-32 h-20" src="/logos/nvidia.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/amd.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/cisco.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/dell.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/hp.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/intel.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/lenovo.svg" alt="nvidia logo" />
-              <Image className="w-28 h-16" src="/logos/schneider.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/supermicro.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/nvidia.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/amd.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/cisco.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/dell.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/hp.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/intel.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/lenovo.svg" alt="nvidia logo" />
-              <Image className="w-28 h-16" src="/logos/schneider.svg" alt="nvidia logo" />
-              <Image className="w-32 h-20" src="/logos/supermicro.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/nvidia.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/amd.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/cisco.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/dell.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/hp.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/intel.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/lenovo.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/schneider.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/supermicro.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/nvidia.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/amd.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/cisco.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/dell.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/hp.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/intel.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/lenovo.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/schneider.svg" alt="nvidia logo" />
+              <Image height={20} width={32} src="/logos/supermicro.svg" alt="nvidia logo" />
           </div>
 
           </div>
