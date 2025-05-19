@@ -15,7 +15,7 @@ export default function Home() {
             <Link href="/">
               <Image className="p-2" height={15} width={14} src="/logo.webp" alt="logo" />
             </Link>
-            <Link className="text-2xl font-semibold" href="/">CentralAxis</Link>
+            <Link href="/" className="text-2xl font-semibold" href="/">CentralAxis</Link>
           </div>
 
           <div className="flex font-medium text-sm space-x-6">
@@ -141,8 +141,8 @@ export default function Home() {
 
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <Link className=" px-3.5 text-sm font-normal md:px-5 bg-[#8172EE] rounded-full p-1.5">Set Up a Time</Link>
-              <Link className="px-3.5 text-sm font-normal md:px-5 border-white/10 rounded-full p-1.5 bg-[#27272A]">Learn More</Link>
+              <Link href={""} className=" px-3.5 text-sm font-normal md:px-5 bg-[#8172EE] rounded-full p-1.5">Set Up a Time</Link>
+              <Link href={""} className="px-3.5 text-sm font-normal md:px-5 border-white/10 rounded-full p-1.5 bg-[#27272A]">Learn More</Link>
             </div>
           </div>
 
