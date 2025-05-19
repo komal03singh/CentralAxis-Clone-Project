@@ -84,7 +84,7 @@ export default function Home() {
           <div className="border-l-1 border-white/10"></div>          
           <div className="border-t-1 border-r-1 border-white/10"></div>
           <div className="flex justify-center border-t-1 border-white/10">
-            <Link href="https://calendly.com/margarita-centralaxis/30min" className="flex justify-center items-center border-1 border-white/10 w-2/6 h-14 bg-[#7869dc] -z-10">
+            <Link href="#" className="flex justify-center items-center border-1 border-white/10 w-2/6 h-14 bg-[#7869dc] -z-10">
               Request Demo
             </Link>
           
