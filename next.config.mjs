@@ -3,6 +3,10 @@ const nextConfig = {
     eslint: {
         ignoreDuringBuilds: true,
     },
+
+    images: {
+    domains: ['assets.basehub.com'],
+    },
 };
 
 export default nextConfig;
